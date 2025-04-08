@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FOUNDATIONS CARD</title>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"> -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f4ca42;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: white;
+      width: 320px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 0px #000000cc;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .tag {
+      background-color: #f4ca42;
+      color: black;
+      font-weight: 600;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .date {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #000;
+    }
+
+    .desc {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.4;
+      margin-bottom: 15px;
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .author img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .author-name {
+      font-weight: 600;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="lk.png" alt="Card Image">
+    <div class="card-content">
+      <div class="tag">Learning</div>
+      <div class="date">CREATED BY LALIT</div>
+      <div class="title">HTML & CSS foundations</div>
+      <div class="desc">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </div>
+      <div class="author">
+        <img src="me.jpg" alt="Greg Hooper">
+        <span class="author-name">Lalit Kumar Saini</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
